@@ -1,0 +1,562 @@
+lor: #e0e0e0;
+            --text-muted: #555555;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-gray);
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Cover Page Section */
+        .cover-page {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 40px;
+            box-sizing: border-box;
+            background: linear-gradient(to bottom, var(--primary-navy) 20px, #ffffff 20px);
+        }
+
+        .cover-header {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .portfolio-tag {
+            font-size: 11pt;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--accent-gold);
+            font-weight: bold;
+        }
+
+        .main-title {
+            font-size: 32pt;
+            font-weight: bold;
+            color: var(--primary-navy);
+            margin: 20px 0 10px 0;
+            line-height: 1.2;
+        }
+
+        .subtitle {
+            font-size: 14pt;
+            font-style: italic;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .cover-metadata {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto 60px auto;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+
+        .meta-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .meta-table td {
+            padding: 8px 0;
+            font-size: 11pt;
+        }
+
+        .meta-label {
+            font-weight: bold;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            width: 30%;
+        }
+
+        .meta-value {
+            color: var(--dark-gray);
+        }
+
+        /* Content Section */
+        .content-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        h2 {
+            color: var(--primary-navy);
+            border-bottom: 2px solid var(--primary-navy);
+            padding-bottom: 8px;
+            margin-top: 40px;
+            text-transform: uppercase;
+            font-size: 18pt;
+        }
+
+        h3 {
+            color: var(--primary-navy);
+            font-size: 14pt;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .formula-box {
+            background-color: var(--light-bg);
+            border-left: 4px solid var(--accent-gold);
+            padding: 15px;
+            margin: 15px 0;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 11pt;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .formula-fraction {
+            display: inline-flex;
+            flex-direction: column;
+            vertical-align: middle;
+            text-align: center;
+            padding: 0 5px;
+        }
+
+        .numerator {
+            border-bottom: 1px solid var(--dark-gray);
+            padding-bottom: 2px;
+        }
+
+        .denominator {
+            padding-top: 2px;
+        }
+
+        .interpretation-box {
+            background-color: #fffdf6;
+            border: 1px solid #f1e6c4;
+            padding: 20px;
+            border-radius: 4px;
+            margin: 15px 0;
+        }
+
+        .interpretation-box ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .interpretation-box li {
+            margin-bottom: 8px;
+        }
+
+        .interpretation-box li:last-child {
+            margin-bottom: 0;
+        }
+
+        .back-to-top {
+            text-align: right;
+            font-size: 9pt;
+            margin-top: 10px;
+        }
+
+        .back-to-top a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- PORTFOLIO COVER PAGE -->
+    <div class="cover-page">
+        <div></div>
+        <div class="cover-header">
+            <span class="portfolio-tag">Portfolio Frameworks & Toolkit</span>
+            <h1 class="main-title">Ratio Analysis Toolkit</h1>
+            <p class="subtitle">A Comprehensive Guide to Core Mathematical Frameworks Used in Corporate Evaluation and Equity Analysis</p>
+        </div>
+
+        <div class="cover-metadata">
+            <table class="meta-table">
+                <tr>
+                    <td class="meta-label">Author:</td>
+                    <td class="meta-value" style="font-weight: bold; color: var(--primary-navy);">Duna Sisanda</td>
+                </tr>
+                <tr>
+                    <td class="meta-label">Track:</td>
+                    <td class="meta-value">Investment Management and Finance</td>
+                </tr>
+                <tr>
+                    <td class="meta-label">Repository:</td>
+                    <td class="meta-value">github.com/dunamasisa-ops/Finance-Portfolio</td>
+                </tr>
+                <tr>
+                    <td class="meta-label">Updated:</td>
+                    <td class="meta-value">July 2026</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- MAIN PORTFOLIO CONTENT -->
+    <div class="content-container">
+        
+        <h2>The Facts About Ratios and Purpose of This Work</h2>
+        <h3>The Purpose of Ratios?</h3>
+        <p>In the world of corporate finance and investment management, raw financial statements are just a collection of numbers. On their own, a statement of financial position or statement of comprehensive income cannot tell you if a company is truly healthy, dangerously leveraged, or highly efficient. To uncover the true operational reality of a business, we must look at the relationships between those numbers. This is the core purpose of Ratio Analysis.</p>
+        
+        <h3>The Purpose of This Guide</h3>
+        <p>This comprehensive toolkit is designed to bridge the gap between academic theory and practical corporate evaluation. The purpose of this guide is to break down the core mathematical frameworks used by equity analysts, credit managers, and corporate treasurers to evaluate organizational health by breaking down complex formulas into simple and understandable interpretations. Now let’s get into the exciting part!</p>
+
+        <h2>Types, Definitions, Uses and the Interpretation of Ratios</h2>
+
+        <!-- 1. LIQUIDITY RATIOS -->
+        <h3>1. Liquidity Ratios</h3>
+        <p>Liquidity ratios measure a company’s ability to meet its short-term financial obligations (debts due within one year) using its short-term or current assets. Think of it like setting personal goals. Can you achieve your long-term, big-picture dreams if you don't even have the resources to survive the short term? The answer is no. If your immediate means are not enough to cover your day-to-day survival, your long-term plans become irrelevant. This is exactly what we are breaking down when interpreting liquidity ratios: we are checking if the company has the short-term financial breath to survive long enough to reach its long-term strategic goals.</p>
+
+        <h4>a. Current Ratio</h4>
+        <p>This is the baseline test of short-term financial health. It compares all short-term assets against all short-term liabilities.</p>
+        
+        <div class="formula-box">
+            Current Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Current Assets</span>
+                <span class="denominator">Current Liabilities</span>
+            </div>
+        </div>
+
+        <p><strong>What it measures:</strong> For every R1 of debt due within the year, how many Rands of short-term assets does the company own?</p>
+        
+        <div class="interpretation-box">
+            <strong>The Interpretation:</strong>
+            <ul>
+                <li>A ratio of 2.0 is traditionally considered healthy in many standard industries.</li>
+                <li><strong>Too Low (Less than 1.0):</strong> The company has more short-term debt than short-term assets, indicating a high risk of defaulting or facing a liquidity crunch.</li>
+                <li><strong>Too High (Greater than 3.0):</strong> Not always ideal. It suggests management is hoarding idle cash or overstocking inventory instead of reinvesting it to grow the business efficiently. Having a high current ratio is not enough for investors as they put their concerns on how much is the contribution of inventory in this ratio. A high inventory contribution towards this ratio is actually a red flag because it indicates that inventory is not moving (think of the inventory turnover ratio, which we will talk about later).</li>
+            </ul>
+        </div>
+
+        <h4>b. Quick (Acid Test) Ratio</h4>
+        <p>It is a more conservative measure of the liquidity of the entity as it includes only the more liquid current assets. It excludes current assets like prepayments (which cannot be converted back into cash) and inventory (which might not be quickly converted into cash).</p>
+        
+        <div class="formula-box">
+            Quick Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Current Assets - Inventory</span>
+                <span class="denominator">Current Liabilities</span>
+            </div>
+        </div>
+
+        <h4>c. Cash Ratio</h4>
+        <p>It is the most conservative measure of liquidity. Only highly marketable short-term investments and cash are included. It is a good measure of the company’s ability to handle a crisis.</p>
+        
+        <div class="formula-box">
+            Cash Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Cash + Marketable Securities</span>
+                <span class="denominator">Current Liabilities</span>
+            </div>
+        </div>
+
+        <h4>d. Cash Conversion Cycle</h4>
+        <p>Also known as the Net Operating Cycle. Indicates the amount of time that elapses from the point when a company invests in working capital until the point at which the company collects cash. A shorter cash conversion cycle indicates greater liquidity and vice versa.</p>
+        
+        <div class="formula-box">
+            Cash Conversion Cycle = Days of Inventory on Hand + Days of Sales Outstanding – Number of Days of Payables
+        </div>
+
+        <!-- 2. SOLVENCY RATIOS -->
+        <h3>2. Solvency Ratios</h3>
+        <p>Measures an organization’s ability to meet its long-term financial obligations and debts. It evaluates whether a business generates enough cash flow to stay viable over the long time and avoid bankruptcy. Unlike Liquidity ratios, solvency ratios focus on the healthy balance between debt and equity to ensure long-term survival.</p>
+
+        <h4>a. Debt to Assets Ratio</h4>
+        <div class="formula-box">
+            Debt to Assets Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Total Debt</span>
+                <span class="denominator">Total Assets</span>
+            </div>
+        </div>
+        <p>This ratio measures the percentage of total assets financed with debt. Higher debt means higher financial risk and thus weaker solvency.</p>
+
+        <h4>b. Debt to Capital Ratio</h4>
+        <div class="formula-box">
+            Debt to Capital Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Total Debt</span>
+                <span class="denominator">Total Debt + Total Shareholders' Equity</span>
+            </div>
+        </div>
+        <p>The debt-to-capital ratio measures the percentage of a company’s capital (debt plus equity) represented by debt. As with the previous ratio, a higher ratio generally means higher financial risk and thus indicates weaker solvency.</p>
+
+        <h4>c. Debt to Equity Ratio</h4>
+        <div class="formula-box">
+            Debt to Equity Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Total Debt</span>
+                <span class="denominator">Total Shareholders' Equity</span>
+            </div>
+        </div>
+        <p>The debt-to-equity ratio measures the amount of debt capital relative to equity capital.</p>
+
+        <h4>d. Financial Leverage Ratio</h4>
+        <div class="formula-box">
+            Financial Leverage Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Average Total Assets</span>
+                <span class="denominator">Average Total Equity</span>
+            </div>
+        </div>
+        <p>Also known as the leverage ratio, it measures the amount of total assets supported for each one money unit of equity. The higher the financial leverage ratio, the more leveraged the company is.</p>
+
+        <h4>e. Debt to EBITDA Ratio</h4>
+        <div class="formula-box">
+            Debt to EBITDA Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Total Debt</span>
+                <span class="denominator">EBITDA</span>
+            </div>
+        </div>
+        <p>This ratio estimates how many years it would take to repay total debt based on earnings before income taxes, depreciation and amortization (an approximation of operating cash flow).</p>
+
+        <h4>f. Interest Coverage Ratio</h4>
+        <div class="formula-box">
+            Interest Coverage Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">EBIT</span>
+                <span class="denominator">Interest Payments</span>
+            </div>
+        </div>
+        <p>This is a coverage ratio. This ratio measures the number of times a company’s EBIT could cover its interest payments. Thus, it is sometimes referred to as “times interest earned.” A higher interest coverage ratio indicates stronger solvency, offering greater assurance that the company can service its debt.</p>
+
+        <!-- 3. PROFITABILITY RATIOS -->
+        <h3>3. Profitability Ratios</h3>
+        <p>Profitability ratios (profit margin ratios) compare components of income with sales. They give us an idea of what makes up a company's income and are usually expressed as a portion of each dollar of sales. Managers use these ratios to appraise and reward employees.</p>
+
+        <h4>a. Gross Profit Margin Ratio</h4>
+        <div class="formula-box">
+            Gross Profit Margin Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Gross Profit</span>
+                <span class="denominator">Revenue</span>
+            </div>
+        </div>
+        <p>Gross profit margin indicates the percentage of revenue available to cover operating and other expenses and to generate profit. Higher gross profit margin indicates some combination of higher product pricing and lower product costs.</p>
+
+        <h4>b. Operating Profit Margin Ratio</h4>
+        <div class="formula-box">
+            Operating Profit Margin Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Operating Income</span>
+                <span class="denominator">Revenue</span>
+            </div>
+        </div>
+        <p>An operating profit margin increasing faster than the gross profit margin can indicate improvements in controlling operating costs, such as administrative overheads. In contrast, a declining operating profit margin could be an indicator of deteriorating control over operating costs.</p>
+
+        <h4>c. Net Profit Margin Ratio</h4>
+        <div class="formula-box">
+            Net Profit Margin Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Net Profit</span>
+                <span class="denominator">Revenue</span>
+            </div>
+        </div>
+        <p>Net profit, or net income, is calculated as revenue minus all expenses. Net income includes both recurring and non-recurring components. Generally, the net income used in calculating the net profit margin is adjusted for non-recurring items to offer a better view of a company’s potential future profitability.</p>
+
+        <h4>d. Return on Assets (ROA) Ratio</h4>
+        <div class="formula-box">
+            Return on Assets Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Net Income</span>
+                <span class="denominator">Average Total Assets</span>
+            </div>
+        </div>
+        <p>The higher the ratio, the more income is generated by a given level of assets.</p>
+
+        <h4>e. Return on Capital Ratio</h4>
+        <div class="formula-box">
+            Return on Capital Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">EBIT</span>
+                <span class="denominator">Debt + Equity</span>
+            </div>
+        </div>
+        <p>Measures the profits a company earns on all of the capital that it employs (short-term debt, long-term debt, and equity). As with operating ROA, returns are measured prior to deducting interest on debt capital (i.e., as operating income or EBIT).</p>
+
+        <h4>f. Return on Equity (ROE) Ratio</h4>
+        <div class="formula-box">
+            Return on Equity Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Net Profit</span>
+                <span class="denominator">Equity</span>
+            </div>
+        </div>
+        <p>ROE measures the return earned by a company on its equity capital, including minority equity, preferred equity, and common equity. As noted, return is measured as net income (i.e., interest on debt capital is not included in the return on equity capital). A variation of ROE is return on common equity, which measures the return earned by a company only on its common equity.</p>
+
+        <!-- 4. ACTIVITY / EFFICIENCY RATIOS -->
+        <h3>4. Activity / Efficiency Ratios</h3>
+        <p>Efficiency ratios measure how effectively a firm manages and utilizes its assets to generate revenue or cash. They highlight operational efficiency by showing how quickly resources like inventory or receivables are converted into cash or sales.</p>
+
+        <h4>A. Inventory Turnover & DOH Ratio</h4>
+        <div class="formula-box">
+            Inventory Turnover Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Cost of Goods Sold</span>
+                <span class="denominator">Average Inventory</span>
+            </div>
+            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            DOH Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Number of Days in Period</span>
+                <span class="denominator">Inventory Turnover</span>
+            </div>
+        </div>
+        <p>Indicates inventory management effectiveness. A higher inventory turnover ratio implies a shorter period that inventory is held, and thus a lower Days Of inventory on Hand (DOH). In general, inventory turnover and DOH should be benchmarked against industry norms.</p>
+
+        <h4>B. Receivables Turnover & DSO Ratio</h4>
+        <div class="formula-box">
+            Receivables Turnover Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Revenue</span>
+                <span class="denominator">Average Receivables</span>
+            </div>
+            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            DSO Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Number of Days in Period</span>
+                <span class="denominator">Receivables Turnover</span>
+            </div>
+        </div>
+        <p>The number of DSO represents the elapsed time between a sale and cash collection, reflecting how fast the company collects cash from customers to whom it offers credit.</p>
+        <p>A relatively high receivables turnover ratio (and commensurately low DSO) might indicate highly efficient credit and collection. Alternatively, a high receivables turnover ratio could indicate that the company’s credit or collection policies are too stringent, suggesting the possibility of sales being lost to competitors offering more lenient terms. A relatively low receivables turnover ratio would typically raise questions about the efficiency of the company’s credit and collections procedures.</p>
+
+        <h4>C. Payables Turnover & Number of Days of Payables Ratio</h4>
+        <div class="formula-box">
+            Payables Turnover Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Purchases</span>
+                <span class="denominator">Average Trade Payables</span>
+            </div>
+            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            Number of Days of Payables = 
+            <div class="formula-fraction">
+                <span class="numerator">Number of Days in Period</span>
+                <span class="denominator">Payables Turnover</span>
+            </div>
+        </div>
+        <p>The number of days of payables reflects the average number of days the company takes to pay its suppliers, and the payables turnover ratio measures how many times per year the company theoretically pays off all its creditors.</p>
+        <p>A payables turnover ratio that is high (low days payable) relative to the industry could indicate that the company is not making full use of available credit facilities; alternatively, it could result from a company taking advantage of early payment discounts. An excessively low turnover ratio (high days payable) could indicate trouble making payments on time, or alternatively, exploitation of lenient supplier terms.</p>
+
+        <h4>d. Working Capital Turnover Ratio</h4>
+        <div class="formula-box">
+            Working Capital Turnover Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Revenue</span>
+                <span class="denominator">Average Working Capital</span>
+            </div>
+        </div>
+        <p>Indicates how efficiently the company generates revenue with its working capital. A high working capital turnover ratio indicates greater efficiency.</p>
+
+        <h4>e. Fixed Asset Turnover Ratio</h4>
+        <div class="formula-box">
+            Fixed Asset Turnover Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Revenue</span>
+                <span class="denominator">Average Net Fixed Assets</span>
+            </div>
+        </div>
+        <p>Measures how efficiently the company generates revenues from its investments in fixed assets. Generally, a higher fixed asset turnover ratio indicates more efficient use of fixed assets in generating revenue. A low ratio can indicate inefficiency, a capital-intensive business environment, or a new business not yet operating at full capacity—in which case the analyst will not be able to link the ratio directly to efficiency.</p>
+
+        <h4>f. Total Asset Turnover Ratio</h4>
+        <div class="formula-box">
+            Total Asset Turnover Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Revenue</span>
+                <span class="denominator">Average Total Assets</span>
+            </div>
+        </div>
+        <p>Measures the company’s overall ability to generate revenues with a given level of assets. A higher ratio indicates greater efficiency.</p>
+
+        <!-- 5. VALUATION RATIOS -->
+        <h3>5. Valuation Ratios</h3>
+        <p>Valuation ratios are used by investors and analysts to determine the economic value of a company’s stock compared to its financial performance or book value. They help answer the fundamental question: Is this stock expensive, cheap, or fairly priced relative to its fundamentals?</p>
+
+        <h4>a. Price-to-Earnings (P/E) Ratio</h4>
+        <div class="formula-box">
+            Price-to-Earnings Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Price Per Share</span>
+                <span class="denominator">Earnings Per Share</span>
+            </div>
+        </div>
+        <p>Tells us how much an investor in common stock pays per dollar of earnings. Prone to earnings manipulation. Non-recurring earnings may distort the ratio.</p>
+
+        <h4>b. Price-to-Cash Flow (P/CF) Ratio</h4>
+        <div class="formula-box">
+            Price-to-Cash Flow Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Price Per Share</span>
+                <span class="denominator">Cashflow Per Share</span>
+            </div>
+        </div>
+        <p>Less prone to manipulation.</p>
+
+        <h4>c. Price-to-Sales (P/S) Ratio</h4>
+        <div class="formula-box">
+            Price-to-Sales Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Price Per Share</span>
+                <span class="denominator">Sales Per Share</span>
+            </div>
+        </div>
+        <p>Used when a company does not have a positive net income.</p>
+
+        <h4>d. Price-to-Book Value (P/B) Ratio</h4>
+        <div class="formula-box">
+            Price-to-Book Value Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Price Per Share</span>
+                <span class="denominator">Book Value Per Share</span>
+            </div>
+        </div>
+        <p>Interpreted as an indicator of market judgment about the relationship between a company’s required rate of return and its actual rate of return. A price to book ratio of 1 can be interpreted as an indicator that the company’s future returns are expected to be exactly equal to the returns required by the market. A ratio greater than 1 would indicate that the future profitability of the company is expected to exceed the required rate of return, and values of this ratio less than 1 indicate that the company is not expected to earn excess returns.</p>
+
+        <h4>e. EPS Ratio</h4>
+        <div class="formula-box">
+            EPS Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Earnings</span>
+                <span class="denominator">Weighted Average Number of Ordinary Shares Outstanding</span>
+            </div>
+        </div>
+        <p>Provides information regarding the earnings attributable to each share of common stock.</p>
+
+        <h4>f. Dividend Payout Ratio & Retention Rate</h4>
+        <div class="formula-box">
+            Dividend Payout Ratio = 
+            <div class="formula-fraction">
+                <span class="numerator">Dividend</span>
+                <span class="denominator">Earnings</span>
+            </div>
+            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            Retention Rate = 1 - Payout Rate
+        </div>
+        <p>The Dividend Payout Ratio measures the percentage of earnings that the company pays out as dividends to shareholders. The Retention Rate is the percentage of earnings that a company retains.</p>
+
+        <h4>g. Sustainable Growth Rate</h4>
+        <div class="formula-box">
+            Sustainable Growth Rate = Retention Rate x ROE
+        </div>
+        <p>A company’s sustainable growth rate is viewed as a function of its profitability (measured as ROE) and its ability to finance itself from internally generated funds (measured as the retention rate). A higher ROE and a higher retention rate result in a higher sustainable growth rate.</p>
+
+    </div>
+</body>
+</html>
