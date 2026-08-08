@@ -1,0 +1,205 @@
+EZPOHUB FINANCE
+FINANCE RATIO QUICK NOTES
+
+A practical revision resource for finance and accounting students.
+
+==================================================
+1. LIQUIDITY RATIOS
+==================================================
+
+CURRENT RATIO
+
+Formula:
+Current Assets ÷ Current Liabilities
+
+Purpose:
+Measures the company's ability to meet short-term obligations using
+current assets.
+
+Interpretation:
+A higher ratio generally indicates stronger short-term liquidity,
+but an excessively high ratio may also indicate inefficient use of
+current assets.
+
+
+QUICK RATIO
+
+Formula:
+(Current Assets − Inventory) ÷ Current Liabilities
+
+Purpose:
+Measures short-term liquidity without relying on inventory being sold.
+
+Interpretation:
+Useful when inventory may not be easily converted into cash.
+
+
+CASH RATIO
+
+Formula:
+(Cash + Cash Equivalents) ÷ Current Liabilities
+
+Purpose:
+Measures the company's ability to meet current liabilities using its
+most liquid resources.
+
+
+==================================================
+2. PROFITABILITY RATIOS
+==================================================
+
+GROSS PROFIT MARGIN
+
+Formula:
+Gross Profit ÷ Revenue × 100
+
+Purpose:
+Shows how much revenue remains after the cost of sales.
+
+
+OPERATING PROFIT MARGIN
+
+Formula:
+Operating Profit ÷ Revenue × 100
+
+Purpose:
+Measures profitability from normal operating activities.
+
+
+NET PROFIT MARGIN
+
+Formula:
+Net Profit ÷ Revenue × 100
+
+Purpose:
+Shows how much profit remains after all relevant expenses.
+
+
+RETURN ON ASSETS (ROA)
+
+Formula:
+Net Profit ÷ Average Total Assets × 100
+
+Purpose:
+Measures how effectively assets are being used to generate profit.
+
+
+RETURN ON EQUITY (ROE)
+
+Formula:
+Net Profit ÷ Average Equity × 100
+
+Purpose:
+Measures the return generated on shareholders' equity.
+
+
+==================================================
+3. SOLVENCY RATIOS
+==================================================
+
+DEBT-TO-EQUITY RATIO
+
+Formula:
+Total Debt ÷ Total Equity
+
+Purpose:
+Shows the relationship between debt financing and equity financing.
+
+
+DEBT RATIO
+
+Formula:
+Total Debt ÷ Total Assets
+
+Purpose:
+Shows the proportion of assets financed through debt.
+
+
+==================================================
+4. EFFICIENCY RATIOS
+==================================================
+
+ASSET TURNOVER
+
+Formula:
+Revenue ÷ Average Total Assets
+
+Purpose:
+Measures how efficiently assets generate revenue.
+
+
+INVENTORY TURNOVER
+
+Formula:
+Cost of Sales ÷ Average Inventory
+
+Purpose:
+Measures how frequently inventory is sold and replaced.
+
+
+RECEIVABLES TURNOVER
+
+Formula:
+Credit Sales ÷ Average Trade Receivables
+
+Purpose:
+Measures how efficiently receivables are collected.
+
+
+==================================================
+5. HOW TO INTERPRET A RATIO
+==================================================
+
+Do not interpret a financial ratio in isolation.
+
+Use the following five-step approach:
+
+1. Calculate the ratio.
+2. Compare it with previous periods.
+3. Compare it with an appropriate benchmark or competitor.
+4. Identify the reason for the movement.
+5. Explain the financial implication.
+
+
+==================================================
+6. ANALYSIS TEMPLATE
+==================================================
+
+Ratio:
+
+Current period:
+
+Previous period:
+
+Percentage / numerical movement:
+
+Possible reason:
+
+Positive implication:
+
+Negative implication:
+
+Overall conclusion:
+
+
+==================================================
+EZPOHUB FINANCE
+==================================================
+
+Finance • Accounting • Analysis • Education
+
+Website:
+https://ezpohub.com/
+
+GitHub:
+https://github.com/dunamasisa-ops/Finance-Portfolio
+
+Contact:
+dunamasisa@gmail.com
+0837731118
+
+Educational resource by Sisanda Duna.
+
+This resource is for educational purposes. Always verify calculations,
+definitions and assumptions before using financial information for
+professional decision-making.
