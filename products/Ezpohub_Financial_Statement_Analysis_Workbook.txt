@@ -1,0 +1,334 @@
+EZPOHUB FINANCE
+FINANCIAL STATEMENT ANALYSIS WORKBOOK
+
+A practical workbook for analysing financial statements and developing
+a structured financial conclusion.
+
+==================================================
+SECTION 1 — COMPANY INFORMATION
+==================================================
+
+Company:
+
+Financial year:
+
+Industry:
+
+Analyst:
+
+Date of analysis:
+
+
+==================================================
+SECTION 2 — INCOME STATEMENT ANALYSIS
+==================================================
+
+Revenue:
+
+Previous-period revenue:
+
+Revenue movement:
+
+Gross profit:
+
+Previous-period gross profit:
+
+Gross profit movement:
+
+Operating expenses:
+
+Previous-period operating expenses:
+
+Operating profit:
+
+Previous-period operating profit:
+
+Net profit:
+
+Previous-period net profit:
+
+
+KEY QUESTIONS
+
+1. Is revenue increasing or decreasing?
+
+2. What is driving the revenue movement?
+
+3. Is gross margin improving or declining?
+
+4. Are operating expenses growing faster than revenue?
+
+5. Is the company becoming more or less profitable?
+
+ANALYST NOTES:
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+
+==================================================
+SECTION 3 — BALANCE SHEET ANALYSIS
+==================================================
+
+Cash and cash equivalents:
+
+Trade receivables:
+
+Inventory:
+
+Other current assets:
+
+Total current assets:
+
+Non-current assets:
+
+Total assets:
+
+
+Trade payables:
+
+Short-term debt:
+
+Other current liabilities:
+
+Total current liabilities:
+
+Long-term debt:
+
+Total liabilities:
+
+Total equity:
+
+
+KEY QUESTIONS
+
+1. Is liquidity improving?
+
+2. Is debt increasing?
+
+3. Is working capital improving?
+
+4. Are receivables growing faster than revenue?
+
+5. Is inventory growing faster than sales?
+
+ANALYST NOTES:
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+
+==================================================
+SECTION 4 — CASH FLOW ANALYSIS
+==================================================
+
+Cash flow from operating activities:
+
+Cash flow from investing activities:
+
+Cash flow from financing activities:
+
+Net change in cash:
+
+
+KEY QUESTIONS
+
+1. Is the company generating cash from operations?
+
+2. Is operating cash flow consistent with reported profit?
+
+3. Is the company investing heavily in assets?
+
+4. Is financing being used to support operations?
+
+ANALYST NOTES:
+
+____________________________________________________
+
+____________________________________________________
+
+
+==================================================
+SECTION 5 — LIQUIDITY ANALYSIS
+==================================================
+
+Current Ratio:
+
+Quick Ratio:
+
+Cash Ratio:
+
+
+CONCLUSION:
+
+Liquidity appears to be:
+
+Reason:
+
+____________________________________________________
+
+____________________________________________________
+
+
+==================================================
+SECTION 6 — PROFITABILITY ANALYSIS
+==================================================
+
+Gross Profit Margin:
+
+Operating Profit Margin:
+
+Net Profit Margin:
+
+Return on Assets:
+
+Return on Equity:
+
+
+CONCLUSION:
+
+Profitability appears to be:
+
+Reason:
+
+____________________________________________________
+
+____________________________________________________
+
+
+==================================================
+SECTION 7 — SOLVENCY ANALYSIS
+==================================================
+
+Debt-to-Equity:
+
+Debt Ratio:
+
+Interest Coverage:
+
+Other relevant solvency measure:
+
+
+CONCLUSION:
+
+Solvency appears to be:
+
+Reason:
+
+____________________________________________________
+
+____________________________________________________
+
+
+==================================================
+SECTION 8 — EFFICIENCY ANALYSIS
+==================================================
+
+Asset Turnover:
+
+Inventory Turnover:
+
+Receivables Turnover:
+
+Payables Turnover:
+
+
+CONCLUSION:
+
+Operational efficiency appears to be:
+
+Reason:
+
+____________________________________________________
+
+____________________________________________________
+
+
+==================================================
+SECTION 9 — KEY STRENGTHS
+==================================================
+
+1.
+
+2.
+
+3.
+
+
+==================================================
+SECTION 10 — KEY RISKS
+==================================================
+
+1.
+
+2.
+
+3.
+
+
+==================================================
+SECTION 11 — AREAS REQUIRING FURTHER INVESTIGATION
+==================================================
+
+1.
+
+2.
+
+3.
+
+
+==================================================
+SECTION 12 — FINAL ANALYST CONCLUSION
+==================================================
+
+Overall financial position:
+
+____________________________________________________
+
+____________________________________________________
+
+Main positive factors:
+
+____________________________________________________
+
+____________________________________________________
+
+Main concerns:
+
+____________________________________________________
+
+____________________________________________________
+
+Recommended areas for further analysis:
+
+____________________________________________________
+
+____________________________________________________
+
+
+==================================================
+EZPOHUB FINANCE
+==================================================
+
+Finance • Accounting • Analysis • Education
+
+Website:
+https://ezpohub.com/
+
+GitHub:
+https://github.com/dunamasisa-ops/Finance-Portfolio
+
+Contact:
+dunamasisa@gmail.com
+0837731118
+
+Educational resource by Sisanda Duna.
+
+This workbook is an educational resource and does not constitute
+investment, accounting, tax or financial advice.
