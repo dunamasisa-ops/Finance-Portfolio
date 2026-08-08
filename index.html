@@ -4,31 +4,74 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <title>EzpoHub Finance | Finance Portfolio & Resources</title>
+  <!-- PRIMARY SEO -->
+  <title>EzpoHub | Finance, Accounting & Financial Analysis</title>
 
-  <meta name="description" content="EzpoHub Finance by Sisanda Duna — finance portfolio, accounting resources, financial analysis, financial modelling and digital finance products.">
-
-  <meta name="keywords" content="finance portfolio, accounting portfolio, financial analysis, financial ratios, financial modelling, corporate finance, investment analysis, finance study resources">
+  <meta
+    name="description"
+    content="EzpoHub is a finance and accounting hub by Sisanda Duna, offering financial analysis, finance study resources, practical tools and digital finance products."
+  >
 
   <meta name="author" content="Sisanda Duna">
-  <meta name="robots" content="index, follow">
+
+  <meta
+    name="robots"
+    content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  >
 
   <link rel="canonical" href="https://ezpohub.com/">
+
   <link rel="stylesheet" href="assets/style.css">
 
-  <meta property="og:title" content="EzpoHub Finance">
-  <meta property="og:description" content="Finance portfolio, resources and digital products by Sisanda Duna.">
-  <meta property="og:url" content="https://ezpohub.com/">
+  <!-- OPEN GRAPH -->
   <meta property="og:type" content="website">
+  <meta property="og:title" content="EzpoHub | Finance, Accounting & Financial Analysis">
+  <meta
+    property="og:description"
+    content="EzpoHub — practical finance, accounting resources, financial analysis and digital finance products."
+  >
+  <meta property="og:url" content="https://ezpohub.com/">
+  <meta property="og:site_name" content="EzpoHub">
 
+  <!-- TWITTER / X -->
+  <meta name="twitter:card" content="summary">
+  <meta
+    name="twitter:title"
+    content="EzpoHub | Finance, Accounting & Financial Analysis"
+  >
+  <meta
+    name="twitter:description"
+    content="Practical finance, accounting resources, financial analysis and digital finance products."
+  >
+
+  <!-- WEBSITE STRUCTURED DATA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://ezpohub.com/#website",
+    "name": "EzpoHub",
+    "alternateName": [
+      "EzpoHub Finance",
+      "Ezpo"
+    ],
+    "url": "https://ezpohub.com/",
+    "description": "EzpoHub is a finance and accounting hub offering financial analysis, finance study resources, practical tools and digital finance products.",
+    "inLanguage": "en-ZA",
+    "publisher": {
+      "@id": "https://ezpohub.com/#person"
+    }
+  }
+  </script>
+
+  <!-- PERSON STRUCTURED DATA -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": "https://ezpohub.com/#person",
     "name": "Sisanda Duna",
     "url": "https://ezpohub.com/",
-    "email": "mailto:dunamasisa@gmail.com",
-    "telephone": "+27837731118",
     "sameAs": [
       "https://github.com/dunamasisa-ops"
     ],
@@ -38,10 +81,46 @@
       "Financial Analysis",
       "Financial Modelling",
       "Corporate Finance",
-      "Investment Analysis"
+      "Investment Analysis",
+      "Financial Ratios",
+      "Financial Statements",
+      "Management Accounting"
     ]
   }
   </script>
+
+  <!-- ORGANIZATION / BRAND STRUCTURED DATA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://ezpohub.com/#organization",
+    "name": "EzpoHub",
+    "alternateName": "EzpoHub Finance",
+    "url": "https://ezpohub.com/",
+    "description": "EzpoHub provides finance and accounting resources, practical financial analysis tools and digital finance products.",
+    "founder": {
+      "@id": "https://ezpohub.com/#person"
+    }
+  }
+  </script>
+
+  <!-- BREADCRUMB STRUCTURED DATA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "EzpoHub",
+        "item": "https://ezpohub.com/"
+      }
+    ]
+  }
+  </script>
+
 </head>
 
 <body>
@@ -49,11 +128,11 @@
 <header>
   <div class="wrap nav">
 
-    <a class="logo" href="#top">
+    <a class="logo" href="#top" aria-label="EzpoHub homepage">
       Ezpo<span>Hub</span>
     </a>
 
-    <nav>
+    <nav aria-label="Main navigation">
       <a href="#portfolio">Portfolio</a>
       <a href="#products">Products</a>
       <a href="#resources">Resources</a>
@@ -69,7 +148,7 @@
 
 <!-- HERO -->
 
-<section class="hero">
+<section class="hero" aria-labelledby="hero-title">
 
   <div class="wrap heroGrid">
 
@@ -79,25 +158,25 @@
         FINANCE • ACCOUNTING • ANALYSIS • EDUCATION
       </div>
 
-      <h1>
-        Practical finance for
+      <h1 id="hero-title">
+        EzpoHub — Practical finance for
         <span>students & professionals.</span>
       </h1>
 
       <p>
-        I'm <b>Sisanda Duna</b>. EzpoHub brings together my finance
-        portfolio, accounting resources, analytical work and digital
-        products in one professional finance hub.
+        I'm <b>Sisanda Duna</b>. EzpoHub is a finance and accounting
+        hub bringing together practical financial analysis, finance
+        resources, analytical work and digital products in one place.
       </p>
 
       <div class="actions">
 
         <a class="btn white" href="#portfolio">
-          Explore Portfolio
+          Explore Finance Portfolio
         </a>
 
         <a class="btn glass" href="#products">
-          Shop Finance Products
+          Explore Finance Products
         </a>
 
       </div>
@@ -109,9 +188,9 @@
 
       <small>EZPOHUB FINANCE</small>
 
-      <h3>
+      <h2>
         Learn. Analyse. Apply.
-      </h3>
+      </h2>
 
       <div class="stats">
         <b>Accounting</b>
@@ -130,7 +209,7 @@
 
 <!-- PORTFOLIO -->
 
-<section id="portfolio">
+<section id="portfolio" aria-labelledby="portfolio-title">
 
   <div class="wrap">
 
@@ -140,13 +219,13 @@
         MY WORK
       </div>
 
-      <h2>
-        Finance portfolio
+      <h2 id="portfolio-title">
+        EzpoHub Finance Portfolio
       </h2>
 
       <p>
-        Practical work, projects and resources covering core areas
-        of finance and accounting.
+        Practical finance projects, accounting work and analytical
+        resources covering core areas of finance.
       </p>
 
     </div>
@@ -163,15 +242,15 @@
         </h3>
 
         <p>
-          Explore my finance and accounting work, study resources,
-          calculations and projects.
+          Explore finance and accounting work, study resources,
+          calculations, financial analysis and practical projects.
         </p>
 
         <a
           href="https://github.com/dunamasisa-ops/Finance-Portfolio"
           target="_blank"
-          rel="noopener">
-          View GitHub →
+          rel="noopener noreferrer">
+          View Finance Portfolio →
         </a>
 
       </article>
@@ -182,16 +261,16 @@
         <span>FINANCIAL ANALYSIS</span>
 
         <h3>
-          Ratio Analysis
+          Financial Ratio Analysis
         </h3>
 
         <p>
-          Liquidity, profitability, solvency and efficiency analysis
-          with practical interpretation.
+          Learn liquidity, profitability, solvency and efficiency
+          ratios with practical calculations and interpretation.
         </p>
 
         <a href="#products">
-          See the guide →
+          Explore Ratio Resources →
         </a>
 
       </article>
@@ -202,16 +281,16 @@
         <span>FINANCE EDUCATION</span>
 
         <h3>
-          Student Resources
+          Finance Student Resources
         </h3>
 
         <p>
-          Structured notes, formulas, analytical frameworks and study
-          tools for finance learners.
+          Structured notes, formulas, analytical frameworks and
+          practical study tools for finance learners.
         </p>
 
         <a href="#resources">
-          Explore topics →
+          Explore Finance Topics →
         </a>
 
       </article>
@@ -225,29 +304,32 @@
 
 <!-- PRODUCTS -->
 
-<section id="products" class="blueSection">
+<section
+  id="products"
+  class="blueSection"
+  aria-labelledby="products-title">
 
   <div class="wrap">
 
     <div class="heading">
 
       <div class="eyebrow lightText">
-        DIGITAL PRODUCTS
+        EZPOHUB DIGITAL FINANCE PRODUCTS
       </div>
 
-      <h2>
+      <h2 id="products-title">
         Finance resources that save you time.
       </h2>
 
       <p class="lightText">
-        Learn finance faster with practical guides, workbooks and
-        reusable analytical tools.
+        Learn finance faster with practical guides, workbooks,
+        calculators and reusable financial analysis tools.
       </p>
 
     </div>
 
 
-    <!-- PAYHIP -->
+    <!-- FEATURED PRODUCT -->
 
     <div class="featured">
 
@@ -268,10 +350,11 @@
         </p>
 
         <ul>
-          <li>Clear ratio formulas</li>
+          <li>Clear financial ratio formulas</li>
           <li>Practical calculation structure</li>
-          <li>Interpretation guidance</li>
+          <li>Ratio interpretation guidance</li>
           <li>Student-friendly explanations</li>
+          <li>Financial analysis framework</li>
         </ul>
 
       </div>
@@ -291,7 +374,7 @@
           class="buybtn"
           href="https://payhip.com/b/topLB"
           target="_blank"
-          rel="noopener">
+          rel="noopener noreferrer">
 
           BUY NOW ON PAYHIP →
 
@@ -327,7 +410,7 @@
           target="_blank"
           rel="noopener">
 
-          Open / Download PDF →
+          Open / Download Finance Ratio Notes →
 
         </a>
 
@@ -346,7 +429,7 @@
 
         <p>
           A structured workbook for analysing financial statements,
-          ratios, strengths, risks and conclusions.
+          financial ratios, strengths, risks and conclusions.
         </p>
 
         <a
@@ -354,7 +437,7 @@
           target="_blank"
           rel="noopener">
 
-          Open / Download Workbook →
+          Open / Download Analysis Workbook →
 
         </a>
 
@@ -372,8 +455,8 @@
         </h3>
 
         <p>
-          Enter your financial figures and use the spreadsheet to
-          calculate common financial ratios.
+          Enter financial figures and calculate common financial
+          ratios using this practical finance spreadsheet.
         </p>
 
         <a
@@ -381,7 +464,7 @@
           target="_blank"
           rel="noopener">
 
-          Open / Download Excel →
+          Open / Download Ratio Calculator →
 
         </a>
 
@@ -396,23 +479,23 @@
 
 <!-- RESOURCES -->
 
-<section id="resources">
+<section id="resources" aria-labelledby="resources-title">
 
   <div class="wrap">
 
     <div class="heading">
 
       <div class="eyebrow">
-        FINANCE KNOWLEDGE HUB
+        EZPOHUB FINANCE KNOWLEDGE HUB
       </div>
 
-      <h2>
+      <h2 id="resources-title">
         Finance topics covered
       </h2>
 
       <p>
-        Explore practical topics across accounting, financial analysis,
-        corporate finance and investment.
+        Explore practical topics across accounting, financial
+        analysis, corporate finance, investment and finance education.
       </p>
 
     </div>
@@ -442,7 +525,7 @@
 
 <!-- ABOUT -->
 
-<section id="about" class="light">
+<section id="about" class="light" aria-labelledby="about-title">
 
   <div class="wrap two">
 
@@ -452,14 +535,14 @@
         ABOUT EZPOHUB
       </div>
 
-      <h2>
-        A finance portfolio with a learning and business layer.
+      <h2 id="about-title">
+        EzpoHub — a finance portfolio with a learning and business layer.
       </h2>
 
       <p>
         EzpoHub showcases practical finance work while making useful
-        educational resources accessible to students and aspiring
-        finance professionals.
+        educational resources accessible to students, aspiring
+        finance professionals and anyone interested in financial analysis.
       </p>
 
     </div>
@@ -468,13 +551,14 @@
     <div class="info">
 
       <b>
-        What you can find here
+        What you can find at EzpoHub
       </b>
 
       <p>✓ Finance projects</p>
       <p>✓ Accounting resources</p>
       <p>✓ Financial analysis</p>
-      <p>✓ Digital products</p>
+      <p>✓ Financial ratio tools</p>
+      <p>✓ Digital finance products</p>
       <p>✓ Study templates</p>
       <p>✓ Future finance tools</p>
 
@@ -487,23 +571,23 @@
 
 <!-- CONTACT -->
 
-<section id="contact" class="contact">
+<section id="contact" class="contact" aria-labelledby="contact-title">
 
   <div class="wrap two">
 
     <div>
 
       <div class="eyebrow lightText">
-        CONTACT
+        CONTACT EZPOHUB
       </div>
 
-      <h2>
+      <h2 id="contact-title">
         Let's connect.
       </h2>
 
       <p>
-        For collaborations, finance projects, resources or product
-        enquiries.
+        For collaborations, finance projects, resources or
+        digital product enquiries.
       </p>
 
     </div>
@@ -522,7 +606,7 @@
       <a
         href="https://wa.me/27837731118"
         target="_blank"
-        rel="noopener">
+        rel="noopener noreferrer">
 
         💬 WhatsApp
 
@@ -531,7 +615,7 @@
       <a
         href="https://github.com/dunamasisa-ops"
         target="_blank"
-        rel="noopener">
+        rel="noopener noreferrer">
 
         ◉ GitHub
 
@@ -571,7 +655,8 @@
   class="wa"
   href="https://wa.me/27837731118"
   target="_blank"
-  rel="noopener">
+  rel="noopener noreferrer"
+  aria-label="Contact EzpoHub on WhatsApp">
 
   WhatsApp
 
