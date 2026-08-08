@@ -1,0 +1,49 @@
+EZPOHUB FINANCE
+FINANCE RATIO CALCULATOR
+
+CURRENT RATIO
+Current Assets ÷ Current Liabilities
+
+QUICK RATIO
+(Current Assets − Inventory) ÷ Current Liabilities
+
+CASH RATIO
+(Cash + Cash Equivalents) ÷ Current Liabilities
+
+GROSS PROFIT MARGIN
+Gross Profit ÷ Revenue × 100
+
+OPERATING PROFIT MARGIN
+Operating Profit ÷ Revenue × 100
+
+NET PROFIT MARGIN
+Net Profit ÷ Revenue × 100
+
+RETURN ON ASSETS
+Net Profit ÷ Average Total Assets × 100
+
+RETURN ON EQUITY
+Net Profit ÷ Average Equity × 100
+
+DEBT-TO-EQUITY
+Total Debt ÷ Total Equity
+
+DEBT RATIO
+Total Debt ÷ Total Assets
+
+ASSET TURNOVER
+Revenue ÷ Average Total Assets
+
+INVENTORY TURNOVER
+Cost of Sales ÷ Average Inventory
+
+RECEIVABLES TURNOVER
+Credit Sales ÷ Average Trade Receivables
+
+ANALYSIS NOTE:
+Always compare ratios across periods and against appropriate
+benchmarks. A ratio should not be interpreted in isolation.
+
+EZPOHUB FINANCE
+Finance • Accounting • Analysis • Education
+https://ezpohub.com/
