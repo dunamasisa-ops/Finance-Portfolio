@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://ezpohub.com/sitemap.xml
